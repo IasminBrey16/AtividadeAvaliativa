@@ -39,11 +39,11 @@ public class DetalhesActivity extends AppCompatActivity {
         if (carro != null) {
             tvMarca.setText(carro.getMarca());
             tvModelo.setText(carro.getModelo());
-            tvAno.setText(carro.getAno());
+            tvAno.setText(String.valueOf( carro.getAno()));
             tvCor.setText(carro.getCor());
-            tvMotor.setText(carro.getModelo());
+            tvMotor.setText(String.valueOf(carro.getMotor()));
             tvCombustivel.setText(carro.getCombustivel());
-            tvFipe.setText((int) carro.getFipe());
+            tvFipe.setText(String.valueOf(carro.getFipe()));
         }
     }
 

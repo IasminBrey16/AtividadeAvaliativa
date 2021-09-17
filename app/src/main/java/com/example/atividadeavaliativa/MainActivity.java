@@ -2,7 +2,6 @@ package com.example.atividadeavaliativa;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
