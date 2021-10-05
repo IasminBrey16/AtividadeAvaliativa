@@ -9,7 +9,6 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AtividadeAvaliativa">
-        <activity android:name=".DetalhesActivity" />
         <activity android:name=".CadastrarActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
